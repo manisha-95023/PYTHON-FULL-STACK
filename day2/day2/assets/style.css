@@ -1,0 +1,15 @@
+/* ID selector(#) */
+#one {
+    color: red;
+}
+
+#two {
+    color: aqua;
+}    
+
+/*class selector */
+
+.ai {
+    color: aliceblue;
+}
+    
