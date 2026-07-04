@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      .Navigation-section {
+        background-color: rgb(127, 240, 255);
+        display: grid;
+        grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+      }
+      .logo {
+        height: 40px;
+        background-color: rgb(22, 157, 236);
+      }
+      .quicklinks {
+        height: 40px;
+        background-color: gray;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .hero-section {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: brown;
+        margin: 30px;
+      }
+      .hero-section > image-part {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+      }
+      .hero-section > .text-part {
+        color: greenyellow;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .hero-section > image-part > img {
+        background-color: red;
+        display: flex;
+        width: 200vw;
+        height: 200vh;
+        
+      }
+      .hero-section > text-part h1 {
+        text-align: center;
+        width: 80vw;
+        font-size: 4vw;
+        justify-content: end;
+      }
+
+      @media (max-width: 400px) {
+        .Navigation-section {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+      }
+      .hero-section {
+        display: grid;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Navigation-section">
+      <div class="logo"><h1>LOGO</h1></div>
+      <div class="quicklinks child1"><h3>Home</h3></div>
+      <div class="quicklinks child2"><h3>Career</h3></div>
+      <div class="quicklinks child3"><h3>About</h3></div>
+      <div class="quicklinks child4"><h3>Help</h3></div>
+      <div class="quicklinks child5"><h3>Services</h3></div>
+    </div>
+    <div class="hero-section">
+    <div class="image-part">
+    <img src="nature.png" /></div>
+    <div class="text-part">
+    <h1>NATURE</h1>
+    <br>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta esse id
+      dolores adipisci earum obcaecati odio facere soluta tempora deserunt harum
+      aspernatur, enim, nemo, dolore vel doloremque non sit tenetur. Mollitia
+      ipsa iure porro tenetur dolorem cum repudiandae eum id laborum qui
+      eveniet, rem omnis aut unde culpa aspernatur earum aliquam nesciunt vel
+      consectetur quibusdam voluptatem. Sapiente aspernatur nobis soluta. Beatae
+      voluptatem quae sequi ducimus rem eveniet. Incidunt dignissimos similique
+      provident odit. Quo recusandae blanditiis quis deserunt, ducimus ut
+      aperiam expedita eos debitis fugiat officia nobis quasi cupiditate sunt?
+      Iste?
+    </p>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
